@@ -2,7 +2,7 @@
   "name": "pacman",
   "version": "0.0.1",
   "description": "Pacman multi player game",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "16.x"
   },
