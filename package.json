@@ -2,11 +2,15 @@
   "name": "pacman",
   "version": "0.0.1",
   "description": "Pacman multi player game",
+  "engines": {
+    "node": "16.4.2"
+  },
+  "optionalDependencies": {
+    "type": "module"
+  },
   "dependencies": {
     "express": "^4.12.3",
-    "socket.io": "^1.3.5",
-    "type": "module"
-
-
+    "heroku": "^7.2.0",
+    "socket.io": "^4.4.1"
   }
 }
